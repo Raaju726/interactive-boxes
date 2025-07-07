@@ -1,0 +1,242 @@
+.selection{
+    font-weight: bold;
+    
+}
+
+.Mstplrdiscount{
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 35px;
+}
+.bundle-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    gap: 10px;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.heading-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Bundle Box Styles */
+.bundle-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 420px;
+    margin: 12px auto;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.radio-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+}
+
+.radio-container input[type="radio"] {
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+/* Box Content */
+.content {
+    flex: 1;
+    width: 100%;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0;
+    font-size: 18px;
+}
+
+.price {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.strike-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+    margin-left: 70px;
+    margin-right: 3px;
+}
+
+.discount {
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tag {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e9c68;
+    margin-bottom: 4px;
+    padding-right: 7px;
+}
+
+/* Selector Styles */
+.selectors {
+    margin-top: 15px;
+}
+
+.labels-row {
+    display: flex;
+    justify-content: space-evenly; /* distributes evenly */
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 6px;
+    
+}
+
+.labels-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px; /* Adjust this to match select gap */
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 6px;
+    margin-left: 26px; /* optional tweak for alignment */
+}
+
+
+
+
+
+
+
+
+
+.selector-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    /* controls spacing between select boxes */
+    margin-bottom: 8px;
+    padding-left: 0;
+    /* remove left padding */
+    margin-left: 0;
+    /* remove left margin */
+}
+
+.selector-row span {
+    width: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.selector-row select {
+    font-size: 16px;
+    padding: 4px 6px;
+    font-weight: 500;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    flex: unset;
+    
+    width: 100px;
+    /* fixed smaller width */
+}
+
+
+
+
+
+
+/* Utility Classes */
+.hidden {
+    display: none;
+}
+
+/* Delivery + Total Row */
+.delivery-total-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 420px;
+    margin: 30px auto 0 auto;
+    padding: 0 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.delivery-text {
+    color: green;
+}
+
+.spanele {
+    font-weight: bold;
+}
+
+.total-text {
+    color: #000;
+    font-weight: 500;
+}
+
+/* Add to Cart Button */
+.add-btn {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    margin: 40px auto 0 auto;
+    background-color: #f36b9e;
+    color: white;
+    padding: 14px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.add-btn:hover {
+    background-color: #e8599b;
+}
+
+.bundle-box.selected {
+    border: 2px solid #f36b9e; /* pink border */
+    background-color: #fff0f5; /* light pink background (optional) */
+}
